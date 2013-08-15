@@ -1,0 +1,35 @@
+{
+  "name": "simplescriptloader",
+  "fullName": "Simple Script Loader",
+  "id": "jid1-0Cw5ZSBwy4zl5A",
+  "description": "A very simple add-on for load script file on-the-fly.\nSupport to load script file when page ready.",
+  "author": "Hessian",
+  "homepage": "http://hessian.me",
+  "license": "MPL 2.0",
+  "version": "0.1",
+  "icon": "icon.png",
+  "preferences" : [
+    {
+        "name" : "script_url",
+        "title" : "Script URL",
+        "description" : "A URL address to load",
+        "type" : "string",
+        "value" : ""
+    },
+    {
+        "name" : "autoload",
+        "title" : "Autoload",
+        "description" : "Autoload script when page ready.",
+        "type" : "bool",
+        "value" : false
+    },
+    {
+        "name" : "url_filter",
+        "title" : "URL Filter",
+        "description" : "Only load script when URL matched this Regular Expression.",
+        "type" : "string",
+        "value" : ""
+    }
+
+  ]
+}
