@@ -5,8 +5,8 @@
   "description": "A very simple add-on for load script file on-the-fly.\nSupport to load script file when page ready.",
   "author": "Hessian",
   "homepage": "http://hessian.me",
-  "license": "MPL 2.0",
-  "version": "0.1",
+  "license": "GPL 3.0",
+  "version": "0.2",
   "icon": "icon.png",
   "preferences" : [
     {
@@ -29,6 +29,13 @@
         "description" : "Only load script when URL matched this Regular Expression.",
         "type" : "string",
         "value" : ""
+    },
+    {
+        "name" : "timestamp_suffix",
+        "title" : "Timestamp Suffix",
+        "description" : "Append current timestamp at end of URL to disbable cache.",
+        "type" : "bool",
+        "value" : true
     }
 
   ]
