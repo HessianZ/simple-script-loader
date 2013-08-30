@@ -1,7 +1,9 @@
 Simple Script Loader
 ====================
 
-A simple script file loader add-on for firefox.
+Simple Script Loader is a handy and reliable Firefox add-on that offers a quick possibility to load JavaScript files.
+
+You can achieve this using the fields inserted in the add-on bar, as well as using the Options window of the extension.
 
 
 Features
